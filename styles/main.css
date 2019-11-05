@@ -242,7 +242,7 @@ h4 {
     font-weight: 800;
     font-size: 16px;
     line-height: 32px;
-    color: #56ccf2;
+    color: #fbcb27;
     letter-spacing: 2px;
     text-transform: uppercase; }
     .title__text--white {
@@ -410,7 +410,7 @@ h4 {
     -webkit-transform: translate(50%, 0);
             transform: translate(50%, 0); }
     .steps__span--blue {
-      color: #56ccf2; }
+      color: #fbcb27; }
     .steps__span--orange {
       color: #fcc304; }
     .steps__span--green {
