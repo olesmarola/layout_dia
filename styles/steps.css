@@ -1,0 +1,90 @@
+.steps {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+  -webkit-column-gap: 58px;
+     -moz-column-gap: 58px;
+          column-gap: 58px;
+  row-gap: 128px; }
+  .steps__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+            box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+    background-color: #fff; }
+    .steps__item:first-child, .steps__item:nth-child(3) {
+      position: relative;
+      top: 177px; }
+    .steps__item:last-child, .steps__item:nth-child(2) {
+      position: relative;
+      top: 65px; }
+  .steps__ellipse-container {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .steps__ellipse {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    opacity: 0.1; }
+    .steps__ellipse--blue {
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#56ccf2), to(#56ccf2)), #c4cc4;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56ccf2, #56ccf2), #c4cc4;
+      /* stylelint-enable */ }
+    .steps__ellipse--orange {
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+      /* stylelint-enable */ }
+    .steps__ellipse--green {
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#03d542), to(#03d542)), #c4c4c4;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #03d542, #03d542), #c4c4c4;
+      /* stylelint-enable */ }
+    .steps__ellipse--red {
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
+      /* stylelint-enable */ }
+  .steps__span {
+    font-weight: 900;
+    font-size: 40px;
+    position: absolute;
+    display: block;
+    bottom: -20px;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0); }
+    .steps__span--blue {
+      color: #56ccf2; }
+    .steps__span--orange {
+      color: #fcc304; }
+    .steps__span--green {
+      color: #03d542; }
+    .steps__span--red {
+      color: #f25656; }
+  .steps__paragraph {
+    padding: 0 32px 48px;
+    font-weight: normal;
+    font-size: 12.6px;
+    line-height: 1.5;
+    color: #253757; }
+
+/*# sourceMappingURL=steps.css.map */

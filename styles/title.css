@@ -1,0 +1,22 @@
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .title__img {
+    width: 21px;
+    height: 21px;
+    margin-right: 16px; }
+  .title__text {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 32px;
+    color: #56ccf2;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    .title__text--white {
+      color: #fff; }
+
+/*# sourceMappingURL=title.css.map */

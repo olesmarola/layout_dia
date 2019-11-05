@@ -1,0 +1,47 @@
+.apply {
+  background-image: url("../images/apply/rectangle-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 160px 0; }
+  .apply__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .apply__title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #253757;
+    margin-bottom: 57px; }
+  .apply__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #334563;
+    margin-bottom: 55px; }
+  .apply__button {
+    width: 226px;
+    height: 56px;
+    background-color: #2f80ed;
+    border: 0;
+    border-radius: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s; }
+    .apply__button:hover {
+      color: #fff;
+      background-color: #fbcb27; }
+
+/*# sourceMappingURL=apply.css.map */

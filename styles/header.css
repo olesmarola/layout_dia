@@ -1,0 +1,88 @@
+.header {
+  height: 848px;
+  background-image: url("../images/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right; }
+  .header__top {
+    width: 950px;
+    padding: 48px 0 0 14%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .header__logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .header__logo:hover {
+      color: #fbcb27; }
+  .header__hire-us {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .header__hire-us:hover {
+      color: #fbcb27; }
+    .header__hire-us::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      right: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      display: block;
+      width: 64px;
+      height: 4px;
+      /* stylelint-disable */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+      /* stylelint-enable */
+      border-radius: 32px; }
+  .header__bottom {
+    padding: 76px 0 0 20%; }
+  .header__title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 22px; }
+  .header__paragraph {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 42px; }
+  .header__button {
+    width: 226px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 64px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #253757;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s; }
+    .header__button:hover {
+      color: #fff;
+      background-color: #fbcb27; }
+
+/*# sourceMappingURL=header.css.map */

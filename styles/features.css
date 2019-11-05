@@ -1,0 +1,37 @@
+.features {
+  background-image: url("../images/features/Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 198px 0 160px 14%; }
+  .features__title {
+    margin-bottom: 19px; }
+  .features__label {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #253757;
+    margin-bottom: 69px; }
+  .features__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 64px; }
+    .features__item:last-child {
+      margin-bottom: 0; }
+  .features__sticker {
+    height: 64px;
+    width: 64px;
+    margin-right: 32px; }
+  .features__paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff; }
+
+/*# sourceMappingURL=features.css.map */

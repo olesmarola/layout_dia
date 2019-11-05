@@ -1,0 +1,63 @@
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(3, 314px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 78px;
+     -moz-column-gap: 78px;
+          column-gap: 78px; }
+  .quotes__item {
+    background: #fefefe;
+    -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+            box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 36px 32px 58px; }
+  .quotes__img {
+    width: 126px;
+    height: 196px; }
+  .quotes__paragraph {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #253757; }
+  .quotes__line {
+    width: 64px;
+    height: 2px;
+    border-radius: 25%;
+    margin: 31px 0; }
+    .quotes__line--blue {
+      background-color: #56ccf2; }
+    .quotes__line--orange {
+      background-color: #fcc304; }
+    .quotes__line--red {
+      background-color: #f25656; }
+  .quotes__name {
+    font-weight: bold;
+    font-size: 12.6px;
+    line-height: 1.5; }
+  .quotes__position {
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 1.5;
+    letter-spacing: 2px; }
+    .quotes__position--blue {
+      color: #56ccf2; }
+    .quotes__position--orange {
+      color: #fcc304; }
+    .quotes__position--red {
+      color: #f25656; }
+
+/*# sourceMappingURL=quotes.css.map */

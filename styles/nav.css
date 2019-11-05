@@ -1,0 +1,22 @@
+.nav {
+  width: 558px; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5; }
+  .nav__link {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .nav__link:hover {
+      color: #fbcb27; }
+
+/*# sourceMappingURL=nav.css.map */
