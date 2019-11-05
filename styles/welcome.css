@@ -1,5 +1,13 @@
 .welcome {
-  padding: 165px calc(50% - (742px / 2)) 160px; }
+  padding: 165px 14.15% 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fcfcfd; }
   .welcome__article {
     font-weight: 600;
     font-size: 24px;
@@ -7,5 +15,9 @@
     color: #253757; }
   .welcome__title {
     margin-bottom: 19px; }
+
+@media (max-width: 1000px) {
+  .welcome__article {
+    white-space: nowrap; } }
 
 /*# sourceMappingURL=welcome.css.map */

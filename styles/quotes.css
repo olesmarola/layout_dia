@@ -60,4 +60,12 @@
     .quotes__position--red {
       color: #f25656; }
 
+@media (max-width: 1000px) {
+  .quotes {
+    grid-template-columns: repeat(2, 314px);
+    gap: 78px; }
+    .quotes__item:last-child {
+      margin-left: 197px;
+      width: 314px; } }
+
 /*# sourceMappingURL=quotes.css.map */

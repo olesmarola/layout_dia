@@ -1,9 +1,9 @@
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 264px);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-column-gap: 128px;
      -moz-column-gap: 128px;
           column-gap: 128px; }
@@ -29,5 +29,19 @@
     font-size: 16px;
     line-height: 1.5;
     color: #334563; }
+
+@media (max-width: 1200px) {
+  .cards {
+    -webkit-column-gap: 64px;
+       -moz-column-gap: 64px;
+            column-gap: 64px; } }
+
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 264px);
+    gap: 64px; }
+    .cards__item:last-child {
+      margin: 0 calc(50% + 132px);
+      white-space: nowrap; } }
 
 /*# sourceMappingURL=cards.css.map */

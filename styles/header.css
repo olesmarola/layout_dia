@@ -7,8 +7,7 @@
   background-size: cover;
   background-position: right; }
   .header__top {
-    width: 950px;
-    padding: 48px 0 0 14%;
+    padding: 48px 14% 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53,11 +52,20 @@
       background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
       /* stylelint-enable */
-      border-radius: 32px; }
+      border-radius: 32px;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s; }
     .header__hire-us:hover::after {
       background-color: #334563; }
   .header__bottom {
-    padding: 76px 0 0 20%; }
+    padding: 76px 20% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .header__title {
     font-weight: 900;
     font-size: 64px;
@@ -69,7 +77,8 @@
     font-size: 24px;
     line-height: 1.5;
     color: #fff;
-    margin-bottom: 42px; }
+    margin-bottom: 42px;
+    white-space: nowrap; }
   .header__button {
     width: 226px;
     height: 56px;
@@ -88,5 +97,12 @@
     .header__button:hover {
       color: #fff;
       background-color: #fbcb27; }
+
+@media (max-width: 1000px) {
+  .header__paragraph {
+    width: 90%;
+    white-space: normal; }
+  .header__bottom {
+    padding-top: 39px; } }
 
 /*# sourceMappingURL=header.css.map */

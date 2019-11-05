@@ -21,4 +21,9 @@
     .nav__link--dark {
       color: #253757; }
 
+@media (max-width: 1000px) {
+  .nav__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
+
 /*# sourceMappingURL=nav.css.map */

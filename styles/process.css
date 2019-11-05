@@ -1,14 +1,17 @@
 .process {
-  padding-top: 160px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 160px 14.15% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fcfcfd; }
   .process__article {
-    width: 362px;
-    margin-right: 187px; }
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
   .process__title {
     margin-bottom: 19px; }
   .process__label {
@@ -17,11 +20,21 @@
     color: #253757;
     line-height: 1.4;
     margin-bottom: 64px; }
-  .process__text {
+  .process__paragraph {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
     color: #334563;
     mix-blend-mode: normal; }
+
+@media (max-width: 1000px) {
+  .process {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 
 /*# sourceMappingURL=process.css.map */
