@@ -18,5 +18,7 @@
     transition: color 0.3s; }
     .nav__link:hover {
       color: #fbcb27; }
+    .nav__link--dark {
+      color: #253757; }
 
 /*# sourceMappingURL=nav.css.map */
