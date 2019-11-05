@@ -1,5 +1,7 @@
 .header {
   height: 848px;
+  max-width: 1600px;
+  margin: 0 auto;
   background-image: url("../images/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +54,8 @@
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
       /* stylelint-enable */
       border-radius: 32px; }
+    .header__hire-us:hover::after {
+      background-color: #334563; }
   .header__bottom {
     padding: 76px 0 0 20%; }
   .header__title {
