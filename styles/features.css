@@ -34,7 +34,7 @@
     line-height: 1.5;
     color: #fff; }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .features {
     /* stylelint-disable */
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.5)), to(rgba(37, 55, 87, 0.3))), url("../images/features/Bg.png") no-repeat center;

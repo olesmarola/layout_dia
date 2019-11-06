@@ -3,12 +3,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #fcfcfd; }
-  .welcome__article {
+  .welcome__text {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.5;
@@ -16,8 +15,13 @@
   .welcome__title {
     margin-bottom: 19px; }
 
-@media (max-width: 1000px) {
-  .welcome__article {
+@media (max-width: 1100px) {
+  .welcome__text {
     white-space: nowrap; } }
+
+@media (max-width: 950px) {
+  .welcome__text {
+    white-space: normal;
+    font-size: 20px; } }
 
 /*# sourceMappingURL=welcome.css.map */

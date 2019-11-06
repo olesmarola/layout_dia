@@ -36,12 +36,21 @@
        -moz-column-gap: 64px;
             column-gap: 64px; } }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .cards {
     grid-template-columns: repeat(2, 264px);
     gap: 64px; }
     .cards__item:last-child {
       margin: 0 calc(50% + 132px);
       white-space: nowrap; } }
+
+@media (max-width: 950px) {
+  .cards {
+    grid-template-columns: 264px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .cards__item:last-child {
+      margin: 0; } }
 
 /*# sourceMappingURL=cards.css.map */
