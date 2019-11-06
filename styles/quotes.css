@@ -60,7 +60,7 @@
     .quotes__position--red {
       color: #f25656; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1130px) {
   .quotes {
     grid-template-columns: repeat(2, 314px);
     gap: 78px; }

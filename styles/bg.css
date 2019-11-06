@@ -14,4 +14,8 @@
 .bg__footer {
   background-color: #fff; }
 
+@media (max-width: 1150px) {
+  .bg__header {
+    background: #fcfcfd; } }
+
 /*# sourceMappingURL=bg.css.map */

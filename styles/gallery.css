@@ -67,7 +67,7 @@
     .gallery__sn-link:hover {
       color: #fbcb27; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1130px) {
   .gallery {
     margin: -210px auto 0; }
     .gallery__img {
