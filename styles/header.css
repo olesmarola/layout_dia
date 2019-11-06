@@ -124,11 +124,13 @@
     color: #253757; } }
 
 @media (max-width: 700px) {
-  .header__paragraph {
-    font-size: 20px; }
-  .header__button {
-    background-color: #253757;
-    color: #fff; } }
+  .header {
+    background-color: #56ccf2; }
+    .header__paragraph {
+      font-size: 20px; }
+    .header__button {
+      background-color: #253757;
+      color: #fff; } }
 
 @media (max-width: 600px) {
   .header__title {
@@ -136,8 +138,6 @@
 
 @media (max-width: 450px) {
   .header__title {
-    white-space: normal; }
-  .header__hire-us {
-    color: #253757; } }
+    white-space: normal; } }
 
 /*# sourceMappingURL=header.css.map */

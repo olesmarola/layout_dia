@@ -46,8 +46,4 @@
           -ms-flex-pack: center;
               justify-content: center; } }
 
-@media (max-width: 450px) {
-  .nav__link {
-    color: #253757; } }
-
 /*# sourceMappingURL=nav.css.map */
