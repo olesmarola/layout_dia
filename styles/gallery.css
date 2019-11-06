@@ -79,22 +79,19 @@
 
 @media (max-width: 950px) {
   .gallery__sn-list {
-    right: -32px; } }
+    display: none; } }
 
 @media (max-width: 700px) {
   .gallery {
     margin: -157.5px auto 0; }
     .gallery__img {
       height: 315px;
-      background-size: cover; }
-    .gallery__sn-list {
-      height: 208px; } }
+      background-size: cover; } }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .gallery {
-    margin: 0 auto; }
-    .gallery__sn-list {
-      display: none; }
+    margin: 0 auto;
+    padding: 80px 5% 0; }
     .gallery__article {
       left: 47px;
       bottom: 43px; } }

@@ -98,9 +98,11 @@
       color: #fff;
       background-color: #fbcb27; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .header__top {
-    padding: 48px 14.15% 0; }
+    padding: 48px 14.15% 0; } }
+
+@media (max-width: 1100px) {
   .header__paragraph {
     width: 90%;
     white-space: normal; }
@@ -132,7 +134,7 @@
   .header__title {
     white-space: nowrap; } }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .header__title {
     white-space: normal; }
   .header__hire-us {

@@ -30,7 +30,7 @@
     line-height: 1.5;
     color: #334563; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
   .cards {
     -webkit-column-gap: 64px;
        -moz-column-gap: 64px;

@@ -135,9 +135,11 @@ body {
       color: #fff;
       background-color: #fbcb27; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .header__top {
-    padding: 48px 14.15% 0; }
+    padding: 48px 14.15% 0; } }
+
+@media (max-width: 1100px) {
   .header__paragraph {
     width: 90%;
     white-space: normal; }
@@ -169,7 +171,7 @@ body {
   .header__title {
     white-space: nowrap; } }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .header__title {
     white-space: normal; }
   .header__hire-us {
@@ -223,7 +225,7 @@ body {
           -ms-flex-pack: center;
               justify-content: center; } }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .nav__link {
     color: #253757; } }
 
@@ -308,22 +310,19 @@ body {
 
 @media (max-width: 950px) {
   .gallery__sn-list {
-    right: -32px; } }
+    display: none; } }
 
 @media (max-width: 700px) {
   .gallery {
     margin: -157.5px auto 0; }
     .gallery__img {
       height: 315px;
-      background-size: cover; }
-    .gallery__sn-list {
-      height: 208px; } }
+      background-size: cover; } }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .gallery {
-    margin: 0 auto; }
-    .gallery__sn-list {
-      display: none; }
+    margin: 0 auto;
+    padding: 80px 5% 0; }
     .gallery__article {
       left: 47px;
       bottom: 43px; } }
@@ -434,6 +433,11 @@ body {
     right: 0;
     margin: 0 auto; }
 
+@media (max-width: 450px) {
+  .services__title {
+    font-size: 36px;
+    top: -18px; } }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 264px);
@@ -466,7 +470,7 @@ body {
     line-height: 1.5;
     color: #334563; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
   .cards {
     -webkit-column-gap: 64px;
        -moz-column-gap: 64px;
@@ -518,7 +522,7 @@ body {
     color: #334563;
     mix-blend-mode: normal; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
   .process__article {
     margin-right: 20px; } }
 
@@ -908,7 +912,7 @@ body {
       color: #fff;
       background-color: #fbcb27; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
   .form__input {
     width: 400px; } }
 
