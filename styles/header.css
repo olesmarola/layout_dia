@@ -104,11 +104,17 @@
   .header__top {
     padding: 48px 227px 0; } }
 
+@media (max-width: 1250px) {
+  .header__title {
+    white-space: nowrap; } }
+
 @media (max-width: 1150px) {
   .header__top {
     padding: 48px 14.15% 0; } }
 
 @media (max-width: 1130px) {
+  .header__title {
+    white-space: nowrap; }
   .header__paragraph {
     width: 90%;
     white-space: normal; }
