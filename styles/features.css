@@ -5,7 +5,9 @@
   background-position: center;
   padding: 198px 14.15% 160px;
   margin: 0 auto;
-  max-width: 1600px; }
+  max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .features__title {
     margin-bottom: 19px; }
   .features__label {
@@ -34,12 +36,27 @@
     line-height: 1.5;
     color: #fff; }
 
+@media (min-width: 1921px) {
+  .features {
+    padding: 198px 227px 160px; } }
+
 @media (max-width: 1130px) {
   .features {
     /* stylelint-disable */
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.5)), to(rgba(37, 55, 87, 0.3))), url("../images/features/Bg.png") no-repeat center;
-    background: linear-gradient(0deg, rgba(37, 55, 87, 0.5), rgba(37, 55, 87, 0.3)), url("../images/features/Bg.png") no-repeat center;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(37, 55, 87, 0.3)), to(rgba(37, 55, 87, 0.3))), url("../images/features/Bg.png") no-repeat center;
+    background: linear-gradient(0deg, rgba(37, 55, 87, 0.3), rgba(37, 55, 87, 0.3)), url("../images/features/Bg.png") no-repeat center;
     /* stylelint-enable */
     background-size: cover; } }
+
+@media (max-width: 950px) {
+  .features {
+    padding: calc(80px * 1.5) 14.15%; }
+    .features__item {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .features__sticker {
+      margin-bottom: 20px; } }
 
 /*# sourceMappingURL=features.css.map */

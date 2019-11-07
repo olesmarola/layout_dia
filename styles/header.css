@@ -1,6 +1,8 @@
 .header {
   height: 848px;
   max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
   background-image: url("../images/header/Bg.svg");
   background-repeat: no-repeat;
@@ -98,6 +100,10 @@
       color: #fff;
       background-color: #fbcb27; }
 
+@media (min-width: 1921px) {
+  .header__top {
+    padding: 48px 227px 0; } }
+
 @media (max-width: 1150px) {
   .header__top {
     padding: 48px 14.15% 0; } }
@@ -136,8 +142,20 @@
   .header__title {
     white-space: nowrap; } }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .header__title {
     white-space: normal; } }
+
+@media (max-width: 320px) {
+  .header {
+    height: 888px; }
+    .header__title {
+      width: -webkit-min-content;
+      width: -moz-min-content;
+      width: min-content;
+      margin: 0 auto 20px; }
+    .header__button {
+      margin: 0 auto;
+      width: 163px; } }
 
 /*# sourceMappingURL=header.css.map */

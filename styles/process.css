@@ -1,5 +1,7 @@
 .process {
   max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
   padding: 160px 14.15% 0;
   display: -webkit-box;
@@ -27,6 +29,10 @@
     color: #334563;
     mix-blend-mode: normal; }
 
+@media (min-width: 1921px) {
+  .process {
+    padding: 160px 227px 0; } }
+
 @media (max-width: 1150px) {
   .process__article {
     margin-right: 20px; } }
@@ -39,6 +45,9 @@
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+    padding: 0 14.15%; }
+    .process__article {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=process.css.map */

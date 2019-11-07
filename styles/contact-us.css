@@ -2,12 +2,22 @@
   padding: 100px 14.15% 68px;
   margin: 0 auto;
   max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+@media (min-width: 1921px) {
+  .contact-us {
+    padding: 68px 227px 83px; } }
+
+@media (max-width: 1130px) {
+  .contact-us {
+    padding: 80px 14.15% 0; } }
 
 @media (max-width: 950px) {
   .contact-us {

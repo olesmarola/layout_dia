@@ -1,7 +1,9 @@
 .testimonials {
   padding: 165px 14.15% 48px;
   margin: 0 auto;
-  max-width: 1600px; }
+  max-width: 1600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .testimonials__title {
     margin-bottom: 19px; }
   .testimonials__label {
@@ -10,5 +12,13 @@
     line-height: 1.4;
     color: #253757;
     margin-bottom: 86px; }
+
+@media (min-width: 1921px) {
+  .testimonials {
+    padding: 165px 227px 48px; } }
+
+@media (max-width: 950px) {
+  .testimonials {
+    padding: 80px 14.15%; } }
 
 /*# sourceMappingURL=testimonials.css.map */
