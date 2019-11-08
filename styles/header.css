@@ -152,7 +152,7 @@
   .header__title {
     white-space: normal; } }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .header {
     height: 888px; }
     .header__title {

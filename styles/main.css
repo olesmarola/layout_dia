@@ -197,7 +197,7 @@ body {
   .header__title {
     white-space: normal; } }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .header {
     height: 888px; }
     .header__title {
@@ -362,6 +362,11 @@ body {
     .gallery__article {
       left: 47px;
       bottom: 43px; } }
+
+@media (max-width: 330px) {
+  .gallery__article {
+    left: 27px;
+    bottom: 43px; } }
 
 .slider {
   width: 162px;

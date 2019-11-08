@@ -104,4 +104,9 @@
       left: 47px;
       bottom: 43px; } }
 
+@media (max-width: 330px) {
+  .gallery__article {
+    left: 27px;
+    bottom: 43px; } }
+
 /*# sourceMappingURL=gallery.css.map */
